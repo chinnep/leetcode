@@ -15,7 +15,7 @@ describe('romanToInteger', () => {
     expect(actual).toStrictEqual(expected)
   })
 
-  it('4', () => {
+  it('14', () => {
     const input = 'XIV'
     const expected = 14
     const actual = romanToInteger(input)
@@ -35,5 +35,4 @@ describe('romanToInteger', () => {
     const actual = romanToInteger(input)
     expect(actual).toStrictEqual(expected)
   })
-  
 })

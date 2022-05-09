@@ -16,7 +16,7 @@ describe('longestCommonPrefix', () => {
   })
 
   it('all of one word', () => {
-    const input = ['fire','fireball','firefighter']
+    const input = ['firetruck','fireball','firefighter']
     const expected = 'fire'
     const actual = longestCommonPrefix(input)
     expect(actual).toStrictEqual(expected)
