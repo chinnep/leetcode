@@ -17,7 +17,7 @@ describe('validParentheses', () => {
 
   it('short mismatch', () => {
     const input = '(]'
-    const expected = 'false
+    const expected = false
     const actual = validParentheses(input)
     expect(actual).toStrictEqual(expected)
   })
