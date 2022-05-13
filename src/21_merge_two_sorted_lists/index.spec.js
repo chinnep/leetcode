@@ -3,11 +3,7 @@ const { mergeTwoLists } = require('./index')
 class ListNode {
   constructor (val, next) {
     this.val = (val === undefined ? 0 : val)
-    this.setNext = (next === undefined ? null : next)
-  }
-
-  setNext (next) {
-    this.next = next
+    this.next = (next === undefined ? null : next)
   }
 }
 
