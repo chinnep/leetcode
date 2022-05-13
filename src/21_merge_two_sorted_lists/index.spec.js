@@ -13,10 +13,8 @@ class ListNode {
 
 function createList (arr) {
   if (arr.length === 0) return null
-  if (arr.length === 1) return new ListNode(arr[0])
 
   const head = new ListNode(arr[0])
-  head.next = 2
   let p = head
 
   for (let i = 1; i < arr.length; i++) {
